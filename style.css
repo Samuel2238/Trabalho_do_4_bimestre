@@ -1,0 +1,265 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #252525;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-wrap: wrap;
+
+}
+
+
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.nome {
+    font-size: 21px;
+}
+
+.hp {
+    color: red;
+    font-size: 14px;
+}
+
+.estagio {
+    font-size: 11px;
+}
+
+
+.evolucao {
+    font-size: 11px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+.imagem {
+    width: 100%;
+    height: 200px;
+    border: 3px solid #a77c30;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.imagem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.habilidade {
+    margin-top: 12px;
+}
+
+.titulo-habilidade {
+    display: inline-block;
+    background-color: #d52d25;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 15px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.nome-habilidade {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.texto {
+    font-size: 10px;
+    line-height: 1.4;
+    margin-top: 6px;
+}
+
+
+.ataque {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 22px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.energia {
+    color: red;
+}
+
+.dano {
+    font-size: 17px;
+}
+
+.texto-ataque {
+    font-size: 10px;
+    line-height: 1.4;
+    margin-top: 8px;
+}
+
+
+.informacoes {
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid #a77c30;
+    margin-top: 22px;
+    padding-top: 8px;
+    font-size: 9px;
+    font-weight: bold;
+}
+
+
+.rodape {
+    text-align: center;
+    font-size: 9px;
+    margin-top: 12px;
+}
+
+.conteiner{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 3%;
+
+}
+
+.f1{
+    color: white;
+    font-size: 30px;
+    padding: 50px;
+}
+
+
+
+
+
+.carta1 {
+    width: 320px;
+    height: 490px;
+    padding: 10px;
+    margin: 15px;
+    background: rgb(255, 108, 10);
+    border: 5px solid #e5b52c;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px black;
+    cursor: pointer;
+    transition-duration: 0.5s;
+
+    
+}
+
+.carta2 {
+    width: 320px;
+    height: 490px;
+    padding: 10px;
+    margin: 15px;
+    background: rgb(255, 153, 36);
+    border: 5px solid whitesmoke;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px black;
+    cursor: pointer;
+    transition-duration: 0.5s;
+
+    
+}
+
+.carta3 {
+    width: 320px;
+    height: 490px;
+    padding: 10px;
+    margin: 15px;
+    background: rgba(255, 221, 30, 0.822);
+    border: 5px solid whitesmoke;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px black;
+    cursor: pointer;
+    transition-duration: 0.5s;
+
+    
+}
+
+.carta4 {
+    width: 320px;
+    height: 490px;
+    padding: 10px;
+    margin: 15px;
+    background: rgb(140, 199, 32);
+    border: 5px solid #e5b52c;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px black;
+    cursor: pointer;
+    transition-duration: 0.5s;
+
+    
+}
+
+.carta5 {
+    width: 320px;
+    height: 490px;
+    padding: 10px;
+    margin: 15px;
+    background: rgb(192, 104, 226);
+    border: 5px solid #e5b52c;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px black;
+    cursor: pointer;
+    transition-duration: 0.5s;
+
+    
+}
+
+.carta6 {
+    width: 320px;
+    height: 490px;
+    padding: 10px;
+    margin: 15px;
+    background: rgb(248, 230, 70);
+    border: 5px solid #e5b52c;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px black;
+    cursor: pointer;
+    transition-duration: 0.5s;
+
+    
+}
+
+        .carta1:hover {
+            transform: scale(1.1) translateY(-10px);
+        }
+
+         .carta2:hover {
+            transform: scale(1.1) translateY(-10px);
+        }
+
+         .carta3:hover {
+            transform: scale(1.1) translateY(-10px);
+        }
+
+         .carta4:hover {
+            transform: scale(1.1) translateY(-10px);
+        }
+
+         .carta5:hover {
+            transform: scale(1.1) translateY(-10px);
+        }
+
+         .carta6:hover {
+            transform: scale(1.1) translateY(-10px);
+        }
